@@ -7,15 +7,18 @@ z = sum_of_numbers(2, 3)
 def add_to_n(n):
 
     sum = 0
-
-    for i in range(1, n+1):
-        sum += i
+    i=1
+    while i <= n:
+        sum+=i
+        i+=1
     return sum
 
 
 
 z = add_to_n(19)
 print(z)
+
+
     
 
 
